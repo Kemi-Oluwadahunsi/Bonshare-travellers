@@ -750,6 +750,7 @@ footer img {
     justify-content: center;
     align-items: center;
     gap: 0.3em;
+    padding-bottom: 2rem;
   }
 
   .word h2 {
