@@ -734,9 +734,9 @@ footer img {
   .line1 {
     position: absolute;
     height: 107%;
-    top: 54%;
+    top: 53%;
     left: 11.5%;
-    z-index: 99;
+    z-index: 999;
     background-color: aliceblue;
   }
 
