@@ -1,0 +1,850 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  height: 100dvh;
+}
+
+/* main section */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 4em;
+  background-image: url(/Assets/Rectangle11.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 100dvh;
+  gap: 2rem;
+}
+
+.hero-section {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.affordable {
+  width: 45%;
+  align-self: flex-start;
+}
+
+.affordable h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+.hero-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.affordable p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.affordable img {
+  position: relative;
+  z-index: 999;
+}
+
+.app img {
+  width: 22.5rem;
+}
+
+.smallerImages {
+  top: 16%;
+  right: 9%;
+  position: absolute;
+  width: fit-content;
+}
+
+.smallerImages img {
+  width: 5rem;
+}
+
+.first {
+  position: relative;
+  left: 1.5rem;
+  top: 1rem;
+}
+
+.second {
+  position: relative;
+  right: 28rem;
+  top: 9rem;
+}
+
+.third {
+  position: relative;
+  left: 26rem;
+  top: 3rem;
+}
+
+.fourth {
+  position: relative;
+  left: 3rem;
+  top: 7.5rem;
+}
+
+/* travel section */
+
+.travel {
+  height: 45rem;
+  padding: 0 10rem;
+  margin-top: 3rem;
+}
+
+.innerDiv {
+  display: flex;
+  gap: 2rem;
+  padding: 0 4rem;
+  height: 100%;
+}
+
+.travelMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.suv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  z-index: 999;
+}
+
+.suvCar {
+  margin-left: -0.3rem;
+}
+
+.line1 {
+  position: absolute;
+  top: 77%;
+  left: 15%;
+  z-index: 99;
+  background-color: aliceblue;
+}
+
+.callingImage {
+  flex: 1;
+}
+
+.words {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.word h2 {
+  font-size: 1.5rem;
+}
+
+.word p {
+  font-size: 1.2rem;
+}
+
+.breaklineBob {
+  align-self: start;
+  justify-self: start;
+  margin-top: 1.7rem;
+}
+
+.travell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f5f4;
+  height: 45rem;
+}
+
+.smart {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+
+.imageo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* book a ride section */
+
+.ride {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 37rem;
+}
+
+.dots {
+  display: flex;
+  justify-content: end;
+  align-self: flex-end;
+  position: relative;
+  top: -1.5rem;
+}
+
+.rideInner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+}
+
+.ride h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ride-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.threeSameImages {
+  width: 20rem;
+}
+
+/* footer */
+footer {
+  font-size: smaller;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12rem;
+  background-color: rgb(244, 242, 242);
+}
+
+footer img {
+  margin-left: 2em;
+}
+
+/* Media quaries */
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .hero-section {
+    justify-content: space-between;
+  }
+
+  .dots {
+    right: -24rem;
+  }
+
+  .ride-flex {
+    gap: 3rem;
+  }
+
+  .roe {
+    top: 18%;
+    right: 2%;
+    position: absolute;
+    width: fit-content;
+  }
+
+  .two {
+    position: relative;
+    right: 18rem;
+    top: 4rem;
+  }
+
+  .three {
+    position: relative;
+    left: 19rem;
+    top: 1rem;
+  }
+
+  .four {
+    position: relative;
+    left: 2rem;
+    top: 6rem;
+  }
+
+  .travel {
+    margin-top: 8%;
+
+    justify-content: space-between;
+
+    padding-bottom: 4rem;
+  }
+
+  .travel .words {
+    width: 38%;
+    margin-left: -12rem;
+  }
+
+  .travel h2 {
+    font-size: 84%;
+    width: 100%;
+  }
+
+  .travel .image {
+    margin-left: 2rem;
+  }
+
+  .travell {
+    justify-content: space-between;
+  }
+
+  .smart {
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  .smart h2 {
+    margin-left: 0.4rem;
+    font-size: 80%;
+    width: 100%;
+  }
+
+  .imageo {
+    margin-right: 2rem;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .hero-section {
+    justify-content: space-between;
+  }
+
+  .dots {
+    right: -24rem;
+  }
+
+  .ride-flex {
+    gap: 3rem;
+  }
+
+  .roe {
+    top: 18%;
+    right: 2%;
+    position: absolute;
+    width: fit-content;
+  }
+
+  .two {
+    position: relative;
+    right: 18rem;
+    top: 4rem;
+  }
+
+  .three {
+    position: relative;
+    left: 19rem;
+    top: 1rem;
+  }
+
+  .four {
+    position: relative;
+    left: 2rem;
+    top: 6rem;
+  }
+
+  .travel {
+    margin-top: 8%;
+
+    justify-content: space-between;
+
+    padding-bottom: 4rem;
+  }
+
+  .travel .words {
+    width: 38%;
+    margin-left: -12rem;
+  }
+
+  .travel h2 {
+    font-size: 100%;
+    width: 100%;
+  }
+
+  .travel .image {
+    margin-left: 2rem;
+  }
+
+  .travell {
+    justify-content: space-between;
+  }
+
+  .smart {
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  .smart h2 {
+    margin-left: 0.2rem;
+    font-size: 100%;
+    width: 100%;
+  }
+
+  .smart p {
+    margin-left: 1rem;
+  }
+
+  .imageo {
+    margin-right: 2rem;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+
+  .smart img,
+  .words img {
+    display: none;
+  }
+
+  .ride-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    /* padding: 2rem; */
+    height: 60svh;
+    gap: 1em;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+
+  .hero-section {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+
+  .affordable {
+    width: 100%;
+    align-self: flex-start;
+    gap: 0;
+  }
+
+  .affordable h1 {
+    width: 60%;
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  .hero-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .affordable p {
+    font-size: 1.1rem;
+    width: 80%;
+    font-weight: lighter;
+  }
+
+  .affordable img {
+    width: 7%;
+  }
+
+  .app {
+    display: none;
+  }
+
+  .smallerImages {
+    top: 16%;
+    right: 9%;
+  }
+
+  .smallerImages img {
+    width: 4rem;
+  }
+
+ .first {
+    position: relative;
+    left:3rem;
+    top: 1rem;
+  }
+
+  .second {
+    position: relative;
+    right: 8rem;
+    top: 10rem;
+  } 
+
+  .third,
+  .fourth {
+    display: none;
+  }
+
+  /* travel section */
+
+  .travel {
+    height: 40rem;
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+
+  .innerDiv {
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    height: 100%;
+  }
+
+  .travelMain {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .suvCar {
+    margin-left: 2.3rem;
+    width: 2rem;
+  }
+
+  .line1 {
+    position: absolute;
+    height: 115%;
+    top: 58%;
+    left: 11%;
+    z-index: 99;
+    background-color: aliceblue;
+  }
+
+  .callingImage img {
+    width: 90%;
+  }
+
+  .words {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0 3rem;
+  }
+
+  .word h2 {
+    font-size: 1.5rem;
+  }
+
+  .word p {
+    font-size: 1rem;
+  }
+
+  .breaklineBob {
+    display: none;
+  }
+
+  .travell {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40rem;
+    padding: 2rem 1rem;
+  }
+
+  .smart {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+    margin-left: 0;
+  }
+
+  .imageo {
+    width: 70%;
+  }
+
+  .imageo img {
+    width: 90%;
+  }
+
+  .worded {
+    justify-content: center;
+    width: 70%;
+    gap: 0;
+    padding: 0 3rem;
+    text-align: justify;
+  }
+
+  /* book a ride section */
+
+  .ride {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .dots {
+    top: -1.3rem;
+    width: 8%;
+  }
+
+  .rideInner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .ride h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .ride-flex {
+    /* flex-direction: column; */
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .threeSameImages {
+    width: 12rem;
+  }
+
+  /* footer */
+  footer {
+    padding: 0 1rem;
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    padding: 2em;
+    height: 55svh;
+    gap: 1em;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+
+  .hero-section {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+
+  .affordable {
+    width: 100%;
+    align-self: flex-start;
+    gap: 0;
+  }
+
+  .affordable h1 {
+    width: 80%;
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .hero-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .affordable p {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+
+  .affordable img {
+    width: 7%;
+  }
+
+  .app {
+    display: none;
+  }
+
+  .smallerImages {
+    /* top: 16%;
+    right: 9%; */
+    display: none;
+  }
+
+  .smallerImages img {
+    width: 3rem;
+  }
+
+  /* .first {
+    position: relative;
+    left:0;
+    top: 1rem;
+  }
+
+  .second {
+    position: relative;
+    right: 28rem;
+    top: 8rem;
+  } */
+
+  .third,
+  .fourth,
+  .second,
+  .first {
+    display: none;
+  }
+
+  /* travel section */
+
+  .travel {
+    height: 40rem;
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+
+  .innerDiv {
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    height: 100%;
+  }
+
+  .travelMain {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .suvCar {
+    margin-left: 0;
+    width: 2rem;
+  }
+
+  .line1 {
+    position: absolute;
+    height: 107%;
+    top: 53%;
+    left: 10%;
+    z-index: 99;
+    background-color: aliceblue;
+  }
+
+  .callingImage img {
+    width: 90%;
+  }
+
+  .words {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+  }
+
+  .word h2 {
+    font-size: 1.3rem;
+  }
+
+  .word p {
+    font-size: 0.9rem;
+  }
+
+  .breaklineBob {
+    display: none;
+  }
+
+  .travell {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40rem;
+    padding: 0 1rem;
+  }
+
+  .smart {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .imageo {
+    width: 100%;
+  }
+
+  .imageo img {
+    width: 90%;
+  }
+
+  .worded {
+    padding: 1rem 2rem;
+    text-align: justify;
+  }
+
+  /* book a ride section */
+
+  .ride {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .dots {
+    top: -1rem;
+    width: 10%;
+  }
+
+  .rideInner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .ride h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .ride-flex {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .threeSameImages {
+    width: 17rem;
+  }
+
+  /* footer */
+  footer {
+    padding: 0 1rem;
+    height: 7rem;
+  }
+}
