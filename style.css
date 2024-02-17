@@ -644,7 +644,7 @@ footer img {
   main {
     padding: 2em;
     height: 55svh;
-    gap: 1em;
+    gap: 0;
   }
 
   .logo img {
@@ -666,7 +666,7 @@ footer img {
   }
 
   .affordable h1 {
-    width: 80%;
+    width: 90%;
     font-size: 2em;
     margin: 0;
   }
@@ -691,26 +691,12 @@ footer img {
   }
 
   .smallerImages {
-    /* top: 16%;
-    right: 9%; */
     display: none;
   }
 
   .smallerImages img {
     width: 3rem;
   }
-
-  /* .first {
-    position: relative;
-    left:0;
-    top: 1rem;
-  }
-
-  .second {
-    position: relative;
-    right: 28rem;
-    top: 8rem;
-  } */
 
   .third,
   .fourth,
@@ -748,8 +734,8 @@ footer img {
   .line1 {
     position: absolute;
     height: 107%;
-    top: 53%;
-    left: 10%;
+    top: 54%;
+    left: 11.5%;
     z-index: 99;
     background-color: aliceblue;
   }
