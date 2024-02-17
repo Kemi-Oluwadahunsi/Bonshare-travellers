@@ -834,4 +834,12 @@ footer img {
     padding: 0 1rem;
     height: 7rem;
   }
+
+  .socials {
+    width: 50%;
+  }
+
+  .socials img {
+    width: 7%;
+  }
 }
